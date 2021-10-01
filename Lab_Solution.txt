@@ -47,8 +47,8 @@ PART 6 ->
 --model=limited_model \
 --framework='TENSORFLOW' \
 --runtime-version=2.1 \
---origin=gs://$MODEL_BUCKET/saved_limited_model/ \
---staging-bucket=gs://$MODEL_BUCKET \
+--origin=$MODEL_BUCKET/saved_limited_model/ \
+--staging-bucket=$MODEL_BUCKET \
 --python-version=3.7
 
 
